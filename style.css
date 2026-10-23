@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Days Color Canvas</title>
+    <link rel="stylesheet" href="https://use.typekit.net/あなたのID.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'rff4yjr',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+</head>
+<body>
+
+    <!-- スマホの画面を模したコンテナ -->
+    <div class="mobile-frame">
+
+            <div class="color-back"></div>
+        
+            <div class="horizontal-container">
+                <!-- 写真エリア -->
+
+                <div class="photo-container">
+                    <div class="black">
+                        <img src="2.svg" alt="昨日の写真" class="today-photo-tatenaga">
+                    </div>
+                    <div class="date-label">Oct 09</div>
+                </div>
+
+                <div class="photo-container">
+                    <!-- 自分の写真画像に差し替えてね -->
+                    <div class="black">
+                        <img src="today-photo.svg" alt="今日の写真" class="today-photo-yokonaga">
+                    </div>
+                    <div class="date-label">Oct 10</div>
+                </div>
+
+                
+                <div class="photo-container">
+                    <div class="black">
+                        <img src="3.svg" alt="明日の写真" class="today-photo-tatenaga">
+                    </div>
+                    <div class="date-label">Oct 11</div>
+                </div>
+            </div>
+
+
+            <!-- 情報エリア（色名・コード・メモなど） -->
+            <div class="horizontal-container">
+
+                <div class="text-group">
+
+                    <h1 class="color-title">クタビーチオレンジ</h1>
+                    <div class="color-code">#f49f7b</div>
+
+
+                </div>
+            
+                <img src="tube.svg" alt="絵の具のチューブ" class="tube-art">
+            </div>
+
+
+
+            <div class="memo-section">
+                <div class="horizontal-container2">
+                    <p><span class="color-dot"></span> diary: </p>
+                </div>
+
+                <div class="frame"></div>
+
+                <div class="horizontal-container2">
+                    <p><span class="color-dot"></span> place: </p>
+                    <div class="comment">インドネシア/バリ島/クタビーチ</div>
+                </div>
+            </div>
+
+        
+
+
+
+        <!-- 下部ナビゲーションバー -->
+        <div class="sentaku">
+            <button class="sentaku-botan">
+                <img src="home.svg" alt="ホームボタン" class="egara">
+            </button>
+            <button class="sentaku-botan">
+                <img src="karenda-.svg" alt="ホームボタン" class="egara">
+            </button>
+        </div>
+
+    </div>
+
+</body>
+</html>
